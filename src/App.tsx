@@ -439,7 +439,7 @@ function App() {
                   <span className="term-toggle">{isOpen ? '−' : '+'}</span>
                 </div>
                 <p className="term-definition">
-                  {isOpen ? item.definition : `${item.definition.slice(0, 110)}${item.definition.length > 110 ? '…' : ''}`}
+                  {isOpen ? item.definition : `${item.definition.slice(0, 60)}${item.definition.length > 110 ? '…' : ''}`}
                 </p>
                 {item.example && (
                   <div className="term-example">
